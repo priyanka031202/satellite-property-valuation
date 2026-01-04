@@ -48,12 +48,8 @@ This shows that satellite images add useful neighborhood-level information that 
 
 ---
 
-## How to Run
-
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-
+## How to run 
+1. Insatll despenceriaes
 2. Run notebooks in this order:
 
 preprocessing.ipynb
