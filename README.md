@@ -1,62 +1,64 @@
-#Satellite Property Valuation
+Satellite Property Valuation
 
 This project predicts house prices using a combination of property details and satellite images.
-The idea is to check whether satellite imagery can improve price prediction compared to using tabular data alone.
+The goal is to understand whether satellite imagery improves price prediction compared to using tabular data alone.
 
-#What I Did
+Project Overview
 
-1.Used housing features like bedrooms, bathrooms, square footage, and location
+Uses structured housing data (bedrooms, bathrooms, square footage, location, etc.)
 
-2.Extracted visual features from satellite images using a pretrained ResNet-18
+Extracts visual features from satellite images using ResNet-18
 
-3.Combined tabular and image features into a single model
+Combines tabular and image features into a single model
 
-4.Trained a Random Forest Regressor
+Trains a Random Forest Regressor
 
-5.Compared results with a tabular-only baseline model
+Compares results with a tabular-only baseline model
 
-#Files in This Project
+Project Structure
 data/
  ├── train1.csv
  ├── test2.csv
  └── images/
 
-#notebooks/
+notebooks/
  ├── preprocessing.ipynb
  └── model_training.ipynb
 
-#src/
+src/
  └── data_fetcher.py
 
-#requirements.txt
-#.gitignore
+requirements.txt
+.gitignore
 
-#Results
+Model & Results
 
-1.The model that used tabular data + satellite images performed better than the tabular-only model.
+The multimodal model (tabular + satellite images) performed better than the tabular-only model.
 
-2.RMSE: ~194,914
+RMSE: ~194,914
 
-3.R² Score: ~0.64
+R² Score: ~0.64
 
-4.This shows that satellite images add useful information about the surrounding area.
+This indicates that satellite imagery adds useful neighborhood-level information.
 
-#How to Run
+How to Run the Project
 
 Install dependencies:
 
 pip install -r requirements.txt
 
 
-Run notebooks in order:
+Run notebooks in this order:
 
 preprocessing.ipynb
 
 model_training.ipynb
 
-#Conclusion
+Conclusion
 
-Satellite imagery helps capture neighborhood characteristics that are not available in structured data.
-Combining visual and numerical features leads to better property price predictions.
+Satellite images help capture environmental and neighborhood features that are not available in structured data.
+Combining visual and numerical inputs leads to improved property valuation performance.
 
-Author: Priyanka Choudhary
+Author
+
+Priyanka Choudhary
