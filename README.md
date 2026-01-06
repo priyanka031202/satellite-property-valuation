@@ -18,22 +18,18 @@ The goal is to check whether satellite imagery improves house price prediction c
 ## Project Structure
 
 satellite-property-valuation/
-│
-├── data/
-│ ├── train1.csv
-│ ├── test2.csv
-│ └── images/
-│
-├── notebooks/
-│ ├── preprocessing.ipynb
-│ └── model_training.ipynb
-│
-├── src/
-│ └── data_fetcher.py
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
+1. data/
+   - train1.csv
+   - test2.csv
+   - images/
+2. notebooks/
+   - preprocessing.ipynb
+   - model_training.ipynb
+3. src/
+4. data_fetcher.py
+5. requirements.txt
+6. .gitignore
+7. README.md
 
 
 
@@ -46,7 +42,7 @@ The multimodal model (tabular + satellite images) performs better than the tabul
 
 This shows that satellite images add useful neighborhood-level information that improves house price prediction.
 
----
+
 
 ## How to run 
 1. Insatll despenceriaes
@@ -56,7 +52,7 @@ This shows that satellite images add useful neighborhood-level information that 
 
 -> model_training.ipynb
 
-##Key Takeaways
+## Key Takeaways
 
 1. Tabular data captures property-level features
 
@@ -64,7 +60,7 @@ This shows that satellite images add useful neighborhood-level information that 
 
 3. Combining both improves prediction accuracy
 
-##Author
+## Author
 
 Priyanka Choudhary
 
