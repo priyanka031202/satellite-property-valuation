@@ -3,7 +3,7 @@
 This project predicts house prices using both **property details** and **satellite images**.  
 The goal is to check whether satellite imagery improves house price prediction compared to using tabular data alone.
 
----
+
 
 ## Project Overview
 
@@ -13,7 +13,7 @@ The goal is to check whether satellite imagery improves house price prediction c
 - Trains a **Random Forest Regressor**
 - Compares results with a tabular-only baseline model
 
----
+
 
 ## Project Structure
 
@@ -52,19 +52,19 @@ This shows that satellite images add useful neighborhood-level information that 
 1. Insatll despenceriaes
 2. Run notebooks in this order:
 
-preprocessing.ipynb
+-> preprocessing.ipynb
 
-model_training.ipynb
+-> model_training.ipynb
 
-Key Takeaways
+##Key Takeaways
 
-Tabular data captures property-level features
+1. Tabular data captures property-level features
 
-Satellite images add visual and neighborhood context
+2. Satellite images add visual and neighborhood context
 
-Combining both improves prediction accuracy
+3. Combining both improves prediction accuracy
 
-Author
+##Author
 
 Priyanka Choudhary
 
